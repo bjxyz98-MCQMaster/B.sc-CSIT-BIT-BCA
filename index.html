@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyVault - Your Ultimate Study Resource Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">StudyVault</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Questions</a></li>
+                    <li><a href="#">Study Notes</a></li>
+                    <li><a href="#">Upload Content</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Your Ultimate Study Resource Hub</h1>
+            <p>Access thousands of past year MCO questions, comprehensive study notes, and exam preparation materials across all subjects.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Browse MCOs</a>
+                <a href="#" class="btn btn-outline">Study Notes</a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="divider container"></div>
+    
+   
+    
+    <section class="browse-section">
+        <div class="container">
+            <h2>Browse by Subject</h2>
+            <p>Find resources for your specific subjects</p>
+            
+            <div class="subject-grid">
+                <div class="subject-card" data-subject="math">
+                    <h3>Mathematics</h3>
+                    <p class="resource-count">1250 resources</p>
+                </div>
+                <div class="subject-card" data-subject="physics">
+                    <h3>Physics</h3>
+                    <p class="resource-count">980 resources</p>
+                </div>
+                <div class="subject-card" data-subject="chemistry">
+                    <h3>Chemistry</h3>
+                    <p class="resource-count">875 resources</p>
+                </div>
+                <!--<div class="subject-card" data-subject="biology">
+                    <h3>Biology</h3>
+                    <p class="resource-count">1100 resources</p>
+                </div> -->
+                <div class="subject-card" data-subject="english">
+                    <h3>English</h3>
+                    <p class="resource-count">650 resources</p>
+                </div>
+                <!--<div class="subject-card" data-subject="history">
+                    <h3>History</h3>
+                    <p class="resource-count">520 resources</p>
+                </div>
+                <div class="subject-card" data-subject="geography">
+                    <h3>Geography</h3>
+                    <p class="resource-count">480 resources</p>
+                </div> -->
+                <div class="subject-card" data-subject="computer-science">
+                    <h3>Computer Science</h3>
+                    <p class="resource-count">920 resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Questions Modal -->
+    <div class="questions-modal" id="questionsModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalSubjectTitle">Physics Questions</h2>
+            <div class="questions-list" id="questionsList">
+                <!-- Questions will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+     <section class="features">
+        <div class="container">
+            <h2>Why Choose StudyVault?</h2>
+            <p>Everything you need for exam success in one place</p>
+            
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h3>Extensive MCO Database</h3>
+                    <ul>
+                        <li>Thousands of past year questions</li>
+                        <li>Organized by subject and topic</li>
+                        <li>Regularly updated</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Quality Study Notes</h3>
+                    <ul>
+                        <li>Comprehensive subject coverage</li>
+                        <li>Created by top students</li>
+                        <li>Easy to understand format</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Community Driven</h3>
+                    <ul>
+                        <li>Upload and share resources</li>
+                        <li>Collaborate with peers</li>
+                        <li>Help others succeed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
