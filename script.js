@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
 
             },
-            {
+            /*{
                 id: 2,  // Increment ID
             title: "What is the SI unit of electric current?",
             difficulty: "easy",
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             options: ["Ampere", "Volt", "Ohm", "Watt"],
             answer: "Ampere",
             explanation: "The ampere (A) is the SI base unit of electric current..."
-            }
+            }*/
            
         ],
 
